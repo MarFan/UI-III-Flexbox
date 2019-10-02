@@ -278,6 +278,11 @@ footer #copyright {
 		justify-content: center;
 	}
 
+	#wowsers .tagLine{
+		width: 100%;
+		text-align: center;		
+	}
+
 	#wowsers .tagImg {
 		display:none;
 	}
