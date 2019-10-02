@@ -213,10 +213,6 @@ footer #copyright {
 	padding-top: 30px;
 }
 
-#facts div {
-	/* width: 46%; */
-}
-
 #facts h3 {
 	padding: 0 0 8px;
 }
@@ -238,3 +234,87 @@ footer #copyright {
 .no-border {
 	border: none;
 }
+
+/* About */
+
+.peeps {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.peeps .peeper {
+	width: 48%;
+	margin-bottom: 5%;
+}
+
+.peeps .peep {
+	display: flex;
+	justify-content: space-between;
+}
+
+.peep p {
+	margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		width: 90vw;
+		margin: 0 auto;
+	}
+
+	header nav {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+
+	header nav .links {
+		display: none;
+	}
+
+	#wowsers {
+		justify-content: center;
+	}
+
+	#wowsers .tagImg {
+		display:none;
+	}
+
+	#features, #services {
+		flex-wrap: wrap;
+	}
+	#features div, #services div {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#features p {
+		width: 100%;
+	}
+
+	.services-header-img, .middle-img {
+		width: 100%;
+	}
+
+	.peeps {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.peeps .peeper, #serviceDetail div  {
+		width: 90vw;
+	}
+
+	#facts {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	#facts div, #facts p, #facts img {
+		width: 100%;
+	}
+  }
