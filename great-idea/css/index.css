@@ -257,6 +257,10 @@ footer #copyright {
 	margin-left: 2%;
 }
 
+/* 
+	My atempt at making it responsive.
+*/
+
 @media only screen and (max-width: 600px) {
 	body{
 		width: 90vw;
